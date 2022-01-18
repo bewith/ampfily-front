@@ -19,8 +19,9 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          Click and move to&nbsp;
-          <Link href="/home">pages/home/index.tsx</Link>
+          Click and move to&nbsp;<br />
+          <Link href="/home">pages/home/index.tsx</Link><br />
+          <Link href="/home/10">pages/home/[id].tsx</Link>
         </p>
 
         <div className={styles.grid}>
